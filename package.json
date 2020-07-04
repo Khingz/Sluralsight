@@ -1,0 +1,11 @@
+{
+  "name": "sluralsight",
+  "version": "1.0.0",
+  "description": "Pluralsight landing page as at 3rd july 2020 with html css and javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khingz",
+  "license": "ISC"
+}
