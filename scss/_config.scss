@@ -1,0 +1,17 @@
+$pink: #EC008C;
+$orange: #F15B2A;
+$white: #ffffff;
+$black: #000000;
+$light-black: lighten($black, 10%);
+$gray: lighten($black, 15%);
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $black;
+    color: $white;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+

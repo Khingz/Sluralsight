@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Martel+Sans:wght@900&display=swap');
+@import 'config';
+@import 'utilities';
+@import 'nav';
+
+
+header {
+    background-color: $light-black;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+
+    .header-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+   
+
+    .header-title {
+        font-size: 3.2rem;
+        font-weight: bolder;
+        margin-top: 20vh;
+        font-family: 'Black Han Sans', sans-serif;
+        margin-left: 1.3rem;
+    }
+
+    .header-article {
+        font-weight: 500;
+        font-size: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 1.3rem;
+        line-height: 1.5;
+        word-spacing: .2rem;
+        letter-spacing: .1rem;
+        margin-top: -2rem;
+    }
+
+    button {
+        height: 3.8rem;
+        width: 30%;
+        font-size: 1.2rem;
+        font-weight: bold;
+        letter-spacing: .1rem;
+        margin-left: 1.3rem;
+        color: $white;
+        margin-top: .9rem;
+        cursor: pointer;
+        transition:.5s all ease-out;
+    }
+
+    #view {
+        border:none;
+        background-image: linear-gradient(to right, $orange, $pink);
+    }
+
+    #view:hover {
+        background-image: linear-gradient(to right, $pink, $orange);
+    }
+
+    #try-free {
+        background: none;
+        border: .01rem solid $white;
+    }
+
+    #try-free:hover {
+        border: 0.1rem solid lighten($color: $white, $amount: 100%)
+    }
+
+    img {
+       margin-right: 1.3rem;
+       margin-top: 20vh;
+    }
+}

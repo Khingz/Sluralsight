@@ -1,0 +1,99 @@
+nav {
+    position: fixed;
+    width: 100vw;
+    background-color: $light-black;
+    display: flex;
+    top: 0;
+    text-align: center;
+    box-shadow: .2rem .2rem 10rem .2rem $black;
+    z-index: 10;
+
+    .nav-left {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 60vw;
+        margin: 1rem 3rem;
+
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -.6rem;
+        }
+
+    .logo-icon {
+        height: 2.5rem;
+        width: 2.5rem;
+        background-image: linear-gradient($pink, $orange);
+        border-radius: 50%;
+        margin-top: 4%;
+    }
+
+    .logo-text {
+        font-size: .8rem;
+        letter-spacing: .2rem;
+        font-weight: 600;
+        margin-top: 1.5rem;
+        margin-left: .9rem;
+    }
+        
+    .nav-links > ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-links > ul li {
+        padding: 0 1rem;
+    }
+
+    .nav-links > ul li a{
+        color:$white;
+        font-weight: 700;
+    }
+
+    .drop-down {
+        font-weight: bolder;
+        color: $white;
+    }
+
+    }
+
+    .nav-right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 2rem;
+        padding-left: 1rem;
+
+
+        .nav-right img {
+            color: white;
+            background-color: white;
+            margin-right: 7rem;
+        }
+
+        .sign-in-nav {
+            padding-left: .7rem;
+            display: flex;
+            font-size: 1rem;
+        }
+
+        .sign-in-nav a {
+            color:$white;
+            font-weight: 700;
+            margin-right: .5rem;
+        }
+
+        button {
+            background: none;
+            color: $white;
+            border: solid .01rem $white;
+            padding: .7rem 2.2rem;
+            margin-left: 1rem;
+            font-weight: 800;
+        }
+    }
+
+
+}
