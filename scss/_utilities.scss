@@ -1,7 +1,42 @@
 a {
     text-decoration: none;
+    color: $white;
 }
 
 ul {
     list-style: none;
 }
+
+.dropdown-icon {
+    transform: rotate(-90deg);
+    margin-bottom: -.3rem;
+    margin-left: .7rem;
+    cursor: pointer;
+    transition: ease-in-out all .5s;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+svg {
+    cursor: pointer;
+}
+
+
+button:focus {
+    outline: none;
+}
+
+.hide-item {
+    display: none;
+}
+
+.rotate-nav {
+    transform: rotate(90deg);
+}
+
+// .active-nav {
+//     border-bottom: solid .05rem $pink;
+//     padding: 2rem;
+// }

@@ -1,0 +1,61 @@
+@media (min-width: 769px) and (max-width: 1250px) {
+    .nav-links > ul li a, .nav-list a, .try-for-free {
+        font-size: .8rem;
+    }
+
+    .nav-left {
+        width: 10vw;
+        margin: 1rem 0;
+    }
+
+    .nav-right {
+        margin-right: 0;
+    }
+
+    //dropdown items
+
+    .product-container {
+        width: 45%;
+    }
+
+    .course-item-container {
+        width: 104%;
+        left: 0;
+        right: -3%;
+    }
+
+    .course-drop-btn {
+        font-size: .93rem;
+        font-weight: 550;
+    }
+
+
+
+    //course dropdown items
+    .dropdown-content {
+    
+        .dropdown-content {
+            padding-bottom: 12rem;
+        }
+    
+        .dev-container ul {
+            margin-left: -2.5rem;
+            line-height: 3;
+        }
+
+        .paths-box {
+            width: 11rem;
+            margin-right: .5rem;
+        }
+
+        .tech-box {
+            width: 18rem;
+            font-size: .9rem;
+        }
+    }
+
+    .signin-container {
+        width: 40%;
+    }
+    
+}

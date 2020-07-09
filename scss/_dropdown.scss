@@ -1,0 +1,391 @@
+// product dropdown
+
+.product-container {
+    width: 37%;
+    background-image: linear-gradient(to top, $gray, $black);
+    position: absolute;
+    top: 100%;
+    left: 17%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+
+    
+
+    .heading img {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .product-skill-link {
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    .product-body {
+        text-align: left;
+        margin-top: 3rem;
+    }
+
+    .product-body > a {
+        font-weight: 700;
+    }
+
+    .product-body > p {
+        font-weight: 700;
+        letter-spacing: .2rem;
+        font-size: .7rem;
+        margin-top: 1.5rem;
+    }
+
+    .product-body ul li {
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 2.2;
+        margin-left: -1rem;
+    }
+
+    .cancel {
+        background: none;
+        color: $white;
+        border: none;
+        font-size: 1.5rem;
+        position: absolute;
+        top: 1%;
+        right: 2%;
+        cursor: pointer;
+    }
+}
+
+// course drop-down
+
+.course-item-container {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 2%;
+    // right: 1%;
+
+    .course {
+        margin-right: 4rem;
+    }
+    .course-drop-btns {
+        width: 18%;
+        background-color: $light-black;
+        padding: 1rem 3rem;
+        cursor: pointer;
+        height: 27.9rem;
+    }
+
+    .course-drop-btn:hover {
+        color: whitesmoke
+    }
+
+    .course-drop-btn {
+        color: rgb(161, 157, 157);
+        text-align: right;
+        font-weight: bold;
+        word-spacing: .2rem;
+        margin-bottom: 4rem;
+        margin-right: 0rem;
+        // padding-right: 2rem;
+    }
+
+    .course-rule {
+        border-bottom: rgb(85, 85, 85) 0rem solid;
+        position: relative;
+        bottom: 1.6rem;
+        margin-bottom: -.39rem;
+        left: -3rem;
+        width: 138%;
+    }
+
+    .dropdown-content-container {
+        width: 72%;
+        position: absolute;
+        top: 0;
+        right: 4%;
+        z-index: 0;
+        margin-left: 4%;
+    }
+
+    .dropdown-content {
+        background-color: lighten($black, 7.5%);
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4rem;
+        padding: 1rem 2rem;
+        text-align: left;
+        height: 27.9rem;
+    }
+
+    .dev-container {
+        font-weight: 700;
+    }
+
+    .dev-container .title {
+        color: $white;
+        font-size: .9rem;
+    }
+
+    .title-rule {
+        border-bottom: 0.0rem gray solid;
+        margin-bottom: 2rem;
+
+    }
+
+    .dev-container ul {
+        margin-left: -2.5rem;
+        font-size: .9rem;
+        line-height: 3;
+    }
+
+    .dev-container ul li a{
+        color: gray;
+    }
+
+    .view-all-courses {
+        display: inline-block;
+        color: $pink;
+        cursor: pointer;
+        font-size: .9rem;
+    }
+    .view-all-courses img {
+        padding-left: .5rem;
+        margin-bottom: -0.17rem;
+    }
+
+    .paths-box {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        background-color: $gray;
+        margin-bottom: 1rem;
+        padding-right: .5rem;
+        width: 17rem;
+        cursor: pointer;
+    }
+
+    .paths-box:hover {
+        background-color: lighten($gray, 5%);
+    }
+
+    .paths-figures {
+        margin: 0;
+    }
+
+    .paths-box img {
+        height: 3.5rem;
+    }
+
+    .figures {
+        display: flex;
+        justify-content: left;
+        font-size: .75rem;
+    }
+
+    .figures p {
+        margin-right: 1rem;
+    }
+
+    .figures span {
+        font-weight: 550;
+        color: gray;
+        font-size: .8rem;
+    }
+
+    .figure-name {
+        font-size: .9rem;
+        font-weight: 550;
+        margin-bottom: -.5rem;
+    }
+
+    .achievement-text {
+        font-size: .8rem;
+        color: gray;
+        font-weight: 550;
+    }
+
+    .achievement-text span {
+        color: $white;
+        font-weight: 550;
+    }
+
+    .cancel {
+        background: none;
+        color: $white;
+        border: none;
+        font-size: 1.3rem;
+        position: absolute;
+        top: .5%;
+        right: 4.5%;
+        cursor: pointer;
+    }
+
+    browse techmology dropdown
+    .dropdown-content {
+        display: flex;
+        justify-content: left;
+        padding-top: 1rem;
+    }
+
+    .tech-boxes {
+        margin-top: 1rem;
+    }
+
+    .tech-box {
+        display: flex;
+        align-items: center;
+        background-color: $gray;
+        margin-bottom: 1rem;
+        width: 26rem;
+        cursor: pointer;
+        height: 4rem;
+    }
+
+    .tech-box:hover {
+        background-color: lighten($gray, 5%);
+    }
+}
+
+//resource dropdown
+.resource-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    top: 100%;
+    left: 4%;
+    background-image: linear-gradient(to top, $gray, $black);
+    text-align: left;
+
+    .resource-item {
+        width: 30%;
+        margin: 0 3.5%;
+        padding: 1.5% 0;
+        line-height: 1.7;
+    }
+
+    .resource-title {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .resource-title p {
+        font-weight: 700;
+        font-size: .9rem;
+        margin-right: .4rem;
+    }
+
+    .resource-text {
+        font-size: .9rem;
+        font-weight: 550;
+        color: rgb(139, 138, 138);
+        cursor: pointer;
+    }
+
+    .resource-rule {
+        border-bottom: rgb(85, 85, 85) 0rem solid;
+    }
+
+    .cancel {
+        position: absolute;
+        top: 1%;
+        right: 1%;
+    }
+}
+
+// search dropdown
+.search-container {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: lighten($black, 9%);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+form {
+    width: 93%;
+}
+
+form input {
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: white;
+    width: 100%;
+    margin-left: 1rem;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.cancel {
+    color: $white;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+
+// sigin dropdown
+.signin-container {
+    width: 35%;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    background-image: linear-gradient(to top, $gray 20%, $black);
+    display: flex;
+    justify-content: space-around;
+
+    .sign-in-with {
+        margin-top: 2rem;
+        margin-bottom: 2.9rem;
+        margin-left: 2.2rem;
+        margin-right: 2.2rem;
+    }
+
+    .title {
+        font-size: .7rem;
+        font-weight: 550;
+        letter-spacing: .2rem;
+        margin-bottom: 1.2rem;
+        color: lighten($gray, 40%);
+    }
+    
+    .sign-in-option {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .skills-img img, .flow-img img  {
+        height: 1.5rem;
+    }
+
+    .arrow-next img {
+        height: .8rem;
+        margin-left: .7rem;
+
+    }
+
+    .signup-rule {
+        border-bottom: 0rem solid lighten($gray, 40%)
+    }
+
+    .cancel {
+        position: absolute;
+        top: 1%;
+        right: 1%;
+        font-size: 1.2rem;
+    }
+}

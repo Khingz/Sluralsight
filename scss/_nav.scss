@@ -3,10 +3,11 @@ nav {
     width: 100vw;
     background-color: $light-black;
     display: flex;
+    justify-content: space-between;
     top: 0;
+    left: 0;
     text-align: center;
     box-shadow: .2rem .2rem 10rem .2rem $black;
-    z-index: 10;
 
     .nav-left {
         display: flex;
@@ -41,11 +42,13 @@ nav {
     .nav-links > ul {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .nav-links > ul li {
         padding: 0 1rem;
     }
+
 
     .nav-links > ul li a{
         color:$white;
@@ -53,9 +56,9 @@ nav {
     }
 
     .drop-down {
-        font-weight: bolder;
-        color: $white;
+        margin-top: 5rem;
     }
+
 
     }
 
@@ -77,23 +80,33 @@ nav {
             padding-left: .7rem;
             display: flex;
             font-size: 1rem;
+            margin-right: .9rem;
+            margin-left: .9rem;
         }
 
         .sign-in-nav a {
             color:$white;
             font-weight: 700;
-            margin-right: .5rem;
+            // margin-right: .5rem;
         }
 
-        button {
+        .try-for-free {
             background: none;
             color: $white;
             border: solid .01rem $white;
             padding: .7rem 2.2rem;
             margin-left: 1rem;
             font-weight: 800;
+            cursor: pointer;
+        }
+
+        .try-for-free:hover  {
+            border: 0.1rem solid lighten($color: $white, $amount: 100%)
         }
     }
-
-
 }
+
+
+
+
+

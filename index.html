@@ -14,39 +14,619 @@
                 <img src="./img/ps-icon.png" alt="logo" class="logo-icon">
                 <p class="logo-text">SLURALSIGHT</p>
             </div>
+            
+        <div class="nav-links-container">
             <div class="nav-links">
                 <ul>
-                    <li><a href="#">Products</a><span class="drop-down">&#65088</span></li>
-                    <li><a href="#">Courses</a><span class="drop-down">&#xfe40</span></li>
-                    <li><a href="#">View Plans</a></li>
-                    <li><a href="#">Resources</a><span class="drop-down">&#xfe40</span></li>
+                    <li class="nav-list"><a href="#">Products</a><span class="drop-down"><img src="./img/icon-prev.svg" alt="drop-down" class="dropdown-icon rotate-icon"></span></li>
+                    <li class="nav-list active-nav"><a href="#">Courses</a><span class="drop-down"><img src="./img/icon-prev.svg" alt="drop-down" class="dropdown-icon rotate-icon"></span></li>
+                    <li class="active-nav"><a href="#">View Plans</a></li>
+                    <li class="nav-list"><a href="#">Resources</a><span class="drop-down"><img src="./img/icon-prev.svg" alt="drop-down" class="dropdown-icon rotate-icon"></span></li>
                 </ul>
             </div>
         </div>
+        </div>
         <div class="nav-right">
-             <img src="./img/search-icon-svg-14.jpg" alt="search-icon" height="50" width="50">
-             <div class="sign-in-nav">
-                 <a href="#">Sign in</a><span class="drop-down">&#xfe40</span>
-             </div>   
-             <button>TRY FOR FREE</button>
+            <svg viewBox="0 0 797 801" width="20" height="20" x="0px" y="0px" class="nav-list rotate-icon">
+                <path fill="white" stroke="white" stroke-width="40" class="st0" d="M763.6,743.8L508.9,490c22.5-24.3,40-51.9,52.5-82.6s19-64.1,19.6-100c-2.4-77.3-29.2-141.2-80.3-191.7
+                            S386.3,39,310.8,37.2c-79.7,1.8-145,28-195.8,78.5S37.9,230.1,36,307.4c2.4,77.3,29.2,141.2,80.3,191.7s114.4,76.7,189.9,78.5
+                            c34.1-0.6,65.7-6.4,94.9-17.3c29.2-11,56-26.5,80.3-46.6l253.8,254.7L763.6,743.8z M306.3,537.5c-65.1-1.8-119.3-24.3-162.5-67.6
+                            S78,372.6,76.2,307.4c1.8-65.1,24.3-119.4,67.6-163s97.4-66.2,162.5-68c65.1,1.8,119.4,24.5,163,68s66.2,97.8,68,163
+                            c-1.8,65.1-24.5,119.3-68,162.5S371.4,535.7,306.3,537.5z"></path>
+            </svg>
+            <div class="sign-in">
+                <div class="sign-in-nav nav-list" >
+                 <a href="#">Sign in</a><span class="drop-down"><img src="./img/icon-prev.svg" alt="drop-down" class="dropdown-icon rotate-icon"></span>
+             </div>
+            </div>   
+            <button class="try-for-free">TRY FOR FREE</button>
+
+            <!-- hamburger menu -->
+            <div class="hamburger-container">
+                <div class="hamburger-menu">
+                    <span class="open-slide" id="ham-menu">
+                        <a href="#" id="ham-icon">
+                            <svg width="25" height="30">
+                                <path d="M0,5 30,5" stroke="#fff" stroke-width="2"/>
+                                <path d="M0,14 20,14" stroke="#fff" stroke-width="2"/>
+                                <path d="M0,23 30,23" stroke="#fff" stroke-width="2"/>
+                            </svg>
+                        </a>
+                    </span>
+
+                    <!-- //drop-down -->
+                    <div class="ham-link-container">
+                        <div class="ham-nav-links">
+                            <ul>
+                                <li class="nav-list-ham"><a href="#">Products</a><span class="drop-down"><img src="./img/icon-prev.svg" alt="drop-down" class="dropdown-icon rotate-icon"></span></li>
+                                <li class="nav-list-ham"><a href="#">Courses</a><span class="drop-down"><img src="./img/icon-prev.svg" alt="drop-down" class="dropdown-icon rotate-icon"></span></li>
+                                <li class="nav-list-ham"><a href="#">Resources</a><span class="drop-down"><img src="./img/icon-prev.svg" alt="drop-down" class="dropdown-icon rotate-icon"></span></li>
+                                <li class="active-nav-ham"><a href="#">View Plans</a></li>
+                                <li class="nav-list-ham"> <a href="#">Sign in</a><span class="drop-down"><img src="./img/icon-prev.svg" alt="drop-down" class="dropdown-icon rotate-icon"></span></li>
+                            </ul>
+                        </div>   
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
         </div>
         
-    </nav>
-    <header>
-        <div class="header-container">
-             <section class="header-acticle-container">
-                <h1 class="header-title">UPSKILL YOUR TECH TEAMS FROM ANYWHERE</h1>
-                <p class="header-article">Technologists need the latest skills to do their jobs effectively. And technology leaders need visibility into how their teams work to put the right people on the right  projects. Pluralsight gives you both—the skills and data you need to succeed.</p>
-                <div class="header-buttons">
-                    <button id="view">VIEW PLANS</button>
-                    <button id="try-free">TRY FOR FREE</button>
+        <!-- end of nav -->
+        <!-- dropdown items -->
+        <div class="dropdown-item-container">
+            <!-- product dropdown -->
+            <div id="d1" class="drop-nav-item hide-item">
+                <div class="product-container" >
+                    <div class="product-skill">
+                        <div class="heading">
+                            <img src="./img/logo_ps-skills.png" alt="ps-skill" height="17" width="83">
+                            <a href="#" class="product-skill-link">Technology skill development</a>
+                        </div>
+                       <!-- <div class="horizontal-line"></div> -->
+                       
+                        <div class="product-body">
+                            <a href="#">Overview</a>
+                            <p>SOLUTIONS FOR</p>
+                            <ul>
+                                <li><a href="#">Personal Use</a></li>
+                                <li><a href="#">Software Dev teams</a></li>
+                                <li><a href="#">IT Ops teams</a></li>
+                                <li><a href="#">Security teams</a></li>
+                            </ul>
+                            <a href="#">View Plan</a>
+                        </div>
+                    </div>
+                    <div class="product-flow">
+                       <div class="heading">
+                           <img src="./img//Flow_Logo_white.png" alt="ps-flow" height="17" width="80">
+                           <a href="#" class="product-skill-link">Data and visibility dev team</a>
+                       </div>
+                       <div class="product-body">
+                           <a href="#">Overview</a>
+                           <p>SOLUTIONS FOR</p>
+                           <ul>
+                               <li><a href="#">Managers</a></li>
+                               <li><a href="#">Engineers</a></li>
+                               <li><a href="#">Product leaders</a></li>
+                               <li><a href="#">Executives</a></li>
+                           </ul>
+                           <a href="#">View Plan</a>
+                       </div>
+                    </div>
+                    <button class="cancel">x</button>
                 </div>
-            </section>
-            <section class="header-image">
-                <img src="./img/boy and dog.png" alt="header-image" width="500" height="400">
-            </section>
+             </div>
+             <!-- end of product dropdown -->
+
+             <!-- courses dropdowns -->
+             
+            <div id="d2" class="drop-nav-item course-item hide-item">
+                <div class="course-item-container">
+                    <div class="course-drop-btns">
+                        <p class="course-drop-btn" id="software-dev">Software Development</p><hr class="course-rule">
+                        <p class="course-drop-btn" id="it-ops">IT Ops</p><hr class="course-rule">
+                        <p class="course-drop-btn" id="data-prof">Data Professional</p><hr class="course-rule">
+                        <p class="course-drop-btn" id="info-sec">Information and cyber security</p><hr class="course-rule">
+                        <p class="course-drop-btn" id="browse-tech">Browse all technologies</p><hr class="course-rule">
+                    </div>
+
+                    <!-- **software develpoment -->
+                    <div class="dropdown-content-container" id="course-item-software-develpment">
+                        <div class="dropdown-content">
+                            <div class="dev-container course">
+                                <p class="title">COURSES</p><hr class="title-rule">
+                                <ul>
+                                    <li><a href="#">Python</a></li>
+                                    <li><a href="#">Javascript</a></li>
+                                    <li><a href="#">Java</a></li>
+                                    <li><a href="#">C#</a></li>
+                                    <li><a href="#">Web Development</a></li>
+                                    <li><a href="#">Mobile Development</a></li>
+                                </ul>
+                                <div class="view-all-courses">
+                                    <span>View all courses</span><img src="./img/icon-next.svg" alt="next-icon">
+                                </div>
+                            </div>
+    
+                            <div class="dev-container path">
+                                <p class="title">PATHS</p><hr class="title-rule">
+                                <div class="paths-box">
+                                    <img src="./img/javascript-36f5949a45.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">JavaScript</p>
+                                        <div class="figures">
+                                            <p>9 <span> Courses</span></p>
+                                            <p>21 <span> Hours</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="paths-box">
+                                    <img src="./img/angular-14a0f6532f.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">Angular JS</p>
+                                        <div class="figures">
+                                            <p>14 <span> Courses</span></p>
+                                            <p>55 <span> Hours</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="paths-box">
+                                    <img src="./img/java-79830005fe.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">Java</p>
+                                        <div class="figures">
+                                            <p>13 <span> Courses</span></p>
+                                            <p>48 <span> Hours</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="view-all-courses">
+                                    <span>View all paths</span><img src="./img/icon-next.svg" alt="next-icon">
+                                </div>
+                            </div>
+    
+                            <div class="dev-container achievements">
+                                <p class="title">ACHIEVEMENT</p><hr class="title-rule">
+                                <div class="paths-box">
+                                    <img src="./img/angular-14a0f6532f.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">Angular</p>
+                                        <p class="achievement-text">Get your <span>Skill IQ</span></p>
+                                    </div>
+                                </div>
+                                <div class="paths-box">
+                                    <img src="./img/csharp-e7b8fcd4ce.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">C#</p>
+                                        <p class="achievement-text">Get your <span>Skill IQ</span></p>
+                                    </div>
+                                </div>
+                                <div class="paths-box">
+                                    <img src="./img/python-7be70baaac.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">Python</p>
+                                        <p class="achievement-text">Get your <span>Skill IQ</span></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="view-all-courses">
+                                    <span>View all achievements</span><img src="./img/icon-next.svg" alt="next-icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ops development dropdown-->
+                    <div class="dropdown-content-container hide-item" id="dev-Ops">
+                        <div class="dropdown-content">
+                            <div class="dev-container course">
+                                <p class="title">COURSES</p><hr class="title-rule">
+                                <ul>
+                                    <li><a href="#">IT Certification</a></li>
+                                    <li><a href="#">IT Networking</a></li>
+                                    <li><a href="#">Security</a></li>
+                                    <li><a href="#">Database Administration</a></li>
+                                    <li><a href="#">Visualization</a></li>
+                                    <li><a href="#">Servers</a></li>
+                                </ul>
+                                <div class="view-all-courses">
+                                    <span>View all courses</span><img src="./img/icon-next.svg" alt="next-icon">
+                                </div>
+                            </div>
+            
+                            <div class="dev-container path">
+                                <p class="title">PATHS</p><hr class="title-rule">
+                                <div class="paths-box">
+                                    <img src="./img/fundamentals-of-it-operations-95797723fe.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">Fundamentals of IT Operations</p>
+                                        <div class="figures">
+                                            <p>29 <span> Courses</span></p>
+                                            <p>87 <span> Hours</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="paths-box">
+                                    <img src="./img/server-admin-windows-9e9af6b278.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">CompTIA A+</p>
+                                        <div class="figures">
+                                            <p>11 <span> Courses</span></p>
+                                            <p>40 <span> Hours</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="paths-box">
+                                    <img src="./img/networks-484b57170b.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">CompTIA Network+</p>
+                                        <div class="figures">
+                                            <p>5 <span> Courses</span></p>
+                                            <p>16 <span> Hours</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="view-all-courses">
+                                    <span>View all paths</span><img src="./img/icon-next.svg" alt="next-icon">
+                                </div>
+                            </div>
+            
+                            <div class="dev-container achievements">
+                                <p class="title">ACHIEVEMENT</p><hr class="title-rule">
+                                <div class="paths-box">
+                                    <img src="./img/azure-blue-b11372258d.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">Planning Microsoft Azure Infrastructural</p>
+                                        <p class="achievement-text">Get your <span>Skill IQ</span></p>
+                                    </div>
+                                </div>
+                                <div class="paths-box">
+                                    <img src="./img/networks-484b57170b.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">Networking Fundamentals</p>
+                                        <p class="achievement-text">Get your <span>Skill IQ</span></p>
+                                    </div>
+                                </div>
+                                <div class="paths-box">
+                                    <img src="./img/devops-18b91372ed.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">Understanding Dev Ops</p>
+                                        <p class="achievement-text">Get your <span>Skill IQ</span></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="view-all-courses">
+                                    <span>View all achievements</span><img src="./img/icon-next.svg" alt="next-icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- end of Ops dropdown -->
+
+                    <!-- data-Professional dropdown -->
+                    <div class="dropdown-content-container hide-item" id="data-professional">
+                        <div class="dropdown-content">
+                            <div class="dev-container course">
+                                <p class="title">COURSES</p><hr class="title-rule">
+                                <ul>
+                                    <li><a href="#">Big Data</a></li>
+                                    <li><a href="#">Business Inteligence</a></li>
+                                    <li><a href="#">SQL</a></li>
+                                    <li><a href="#">Tableau</a></li>
+                                    <li><a href="#">Oracle</a></li>
+                                    <li><a href="#">SQL Server</a></li>
+                                </ul>
+                                <div class="view-all-courses">
+                                    <span>View all courses</span><img src="./img/icon-next.svg" alt="next-icon">
+                                </div>
+                            </div>
+            
+                            <div class="dev-container path">
+                                <p class="title">PATHS</p><hr class="title-rule">
+                                <div class="paths-box">
+                                    <img src="./img/scrum-a5c44d8364.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">Using the scrum framework</p>
+                                        <div class="figures">
+                                            <p>7 <span> Courses</span></p>
+                                            <p>13 <span> Hours</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="paths-box">
+                                    <img src="./img/group-policy-administration-ee0dacafe8.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">Microsoft Azure Compute for Developers</p>
+                                        <div class="figures">
+                                            <p>7 <span> Courses</span></p>
+                                            <p>20 <span> Hours</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="paths-box">
+                                    <img src="./img/fundamentals-of-it-operations-95797723fe.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">Upgrading your Technology Career</p>
+                                        <div class="figures">
+                                            <p>28 <span> Courses</span></p>
+                                            <p>51 <span> Hours</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="view-all-courses">
+                                    <span>View all paths</span><img src="./img/icon-next.svg" alt="next-icon">
+                                </div>
+                            </div>
+            
+                            <div class="dev-container achievements">
+                                <p class="title">ACHIEVEMENT</p><hr class="title-rule">
+                                <div class="paths-box">
+                                    <img src="./img/csharp-e7b8fcd4ce.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">C#</p>
+                                        <p class="achievement-text">Get your <span>Skill IQ</span></p>
+                                    </div>
+                                </div>
+                                <div class="paths-box">
+                                    <img src="./img/mysql-e0720d7b98.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">MySQL</p>
+                                        <p class="achievement-text">Get your <span>Skill IQ</span></p>
+                                    </div>
+                                </div>
+                                <div class="paths-box">
+                                    <img src="./img/android-53f8da146d.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">Android</p>
+                                        <p class="achievement-text">Get your <span>Skill IQ</span></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="view-all-courses">
+                                    <span>View all achievements</span><img src="./img/icon-next.svg" alt="next-icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of data-professional dropdown -->
+
+                    <!-- cyber security dropdown -->
+                    <div class="dropdown-content-container hide-item" id="cyber-security">
+                        <div class="dropdown-content">
+                            <div class="dev-container course">
+                                <p class="title">COURSES</p><hr class="title-rule">
+                                <ul>
+                                    <li><a href="#">Cyber Security</a></li>
+                                    <li><a href="#">Security Certifications</a></li>
+                                    <li><a href="#">Penetration Testing</a></li>
+                                    <li><a href="#">Security Auditing</a></li>
+                                    <li><a href="#">Malware Analysis</a></li>
+                                    <li><a href="#">Security Fundamentals</a></li>
+                                </ul>
+                                <div class="view-all-courses">
+                                    <span>View all courses</span><img src="./img/icon-next.svg" alt="next-icon">
+                                </div>
+                            </div>
+            
+                            <div class="dev-container path">
+                                <p class="title">PATHS</p><hr class="title-rule">
+                                <div class="paths-box">
+                                    <img src="./img/comptia-security-plus-a8fd4b7c89.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">Ethical Hacking Fundamentals</p>
+                                        <div class="figures">
+                                            <p>21 <span> Courses</span></p>
+                                            <p>79 <span> Hours</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="paths-box">
+                                    <img src="./img/comptia-security-plus-a8fd4b7c89.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">CySA+ (CompTIA Cybersecurity Analyst) CSO-001</p>
+                                        <div class="figures">
+                                            <p>7 <span> Courses</span></p>
+                                            <p>28 <span> Hours</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="paths-box">
+                                    <img src="./img/comptia-security-plus-a8fd4b7c89.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">SSCPr</p>
+                                        <div class="figures">
+                                            <p>11 <span> Courses</span></p>
+                                            <p>19 <span> Hours</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="view-all-courses">
+                                    <span>View all paths</span><img src="./img/icon-next.svg" alt="next-icon">
+                                </div>
+                            </div>
+            
+                            <div class="dev-container achievements">
+                                <p class="title">ACHIEVEMENT</p><hr class="title-rule">
+                                <div class="paths-box">
+                                    <img src="./img/comptia-security-plus-a8fd4b7c89.png">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">Security Fundamentals</p>
+                                        <p class="achievement-text">Get your <span>Skill IQ</span></p>
+                                    </div>
+                                </div>
+                                <div class="paths-box">
+                                    <img src="./img/comptia-security-plus-a8fd4b7c89.png" alt="js">
+                                    <div class="paths-figures">
+                                        <p class="figure-name">Security for Hackers and Developers</p>
+                                        <p class="achievement-text">Get your <span>Skill IQ</span></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="view-all-courses">
+                                    <span>View all achievements</span><img src="./img/icon-next.svg" alt="next-icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of cyber security dropdown -->
+                    
+                    <!-- browse-all-techologies dropdown -->
+                    <div class="dropdown-content-container hide-item" id="browse-all-technologist">
+                        <div class="dropdown-content">
+                            <div class="dev-container tech-boxes" >
+                                <div class="tech-box">
+                                    <img src="./img/software_development.png" alt="">
+                                    <p class="tech-title">Software Development</p>
+                                </div>
+                                <div class="tech-box">
+                                    <img src="./img/software_development.png" alt="">
+                                    <p class="tech-title">IT Ops</p>
+                                </div>
+                                <div class="tech-box">
+                                    <img src="./img/software_development.png" alt="">
+                                    <p class="tech-title">Data Professional</p>
+                                </div>
+                                <div class="tech-box">
+                                    <img src="./img/software_development.png" alt="">
+                                    <p class="tech-title">Architecture and Construction</p>
+                                </div>
+                                <div class="tech-box">
+                                    <img src="./img/software_development.png" alt="">
+                                    <p class="tech-title">Manufacturing ans Designing</p>
+                                </div>
+                            </div>
+            
+                            <div class="dev-container tech-boxes style="margin-right: 2rem">
+                                <div class="tech-box">
+                                    <img src="./img/software_development.png" alt="">
+                                    <p class="tech-title">Cloud Computing</p>
+                                </div>
+                                <div class="tech-box">
+                                    <img src="./img/software_development.png" alt="">
+                                    <p class="tech-title">Machine Learning/AI</p>
+                                </div>
+                                <div class="tech-box">
+                                    <img src="./img/software_development.png" alt="">
+                                    <p class="tech-title">Business Professional</p>
+                                </div>
+                                <div class="tech-box">
+                                    <img src="./img/software_development.png" alt="">
+                                    <p class="tech-title">Information & Cyber Security</p>
+                                </div>
+                                <div class="tech-box">
+                                    <img src="./img/software_development.png" alt="">
+                                    <p class="tech-title">Creative Professional</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of browse-all-techologies dropdown -->
+                    
+                    <button class="cancel">x</button>
+                </div>
+            </div>
+            </div>
+        </div>   
+        <!-- End of Course drop down -->
+
+        <!-- Resources dropdown -->
+            <div id="d3" class="drop-nav-item resource hide-item">
+                <div class="resource-container">
+                    <div class="resource-item">
+                        <div class="resource-title"><p >Blog</p><img src="./img/icon-next.svg" alt=""></div>
+                        <p class="resource-text">Stay up to date on what's happening in technology, leadership, skill development and more.</p>
+                    </div><hr class="resource-rule">
+                    <div class="resource-item">
+                        <div class="resource-title"><p >Customer Stories</p><img src="./img/icon-next.svg" alt=""></div>
+                        <p class="resource-text">See how companies around the world build tech skills at scale and improve engineering impact.</p>
+                    </div><hr class="resource-rule">
+                    <div class="resource-item">
+                        <div class="resource-title"><p >Webinars</p><img src="./img/icon-next.svg" alt=""></div>
+                        <p class="resource-text">Join us for practical tips, expert insights and live Q&A with our top experts.</p>
+                    </div><hr class="resource-rule">
+                    <div class="resource-item">
+                        <div class="resource-title"><p >LIVE 2020</p><img src="./img/icon-next.svg" alt=""></div>
+                        <p class="resource-text">The ultimate tech skills conference.</p>
+                        <div class="resource-title"><p >LIVE Europe</p><img src="./img/icon-next.svg" alt=""></div>
+
+                    </div>
+                    <button class="cancel">x</button>
+                </div>
+            </div>
+        <!--  End Resources dropdown -->
+
+        <!-- search dropdown -->
+            <div id="d4" class="drop-nav-item search hide-item">
+                <div class="search-container">
+                    <svg viewBox="0 0 797 801" width="30" height="25" x="0px" y="0px">
+                        <path fill="white" stroke="white" stroke-width="35" class="st0" d="M763.6,743.8L508.9,490c22.5-24.3,40-51.9,52.5-82.6s19-64.1,19.6-100c-2.4-77.3-29.2-141.2-80.3-191.7
+                                    S386.3,39,310.8,37.2c-79.7,1.8-145,28-195.8,78.5S37.9,230.1,36,307.4c2.4,77.3,29.2,141.2,80.3,191.7s114.4,76.7,189.9,78.5
+                                    c34.1-0.6,65.7-6.4,94.9-17.3c29.2-11,56-26.5,80.3-46.6l253.8,254.7L763.6,743.8z M306.3,537.5c-65.1-1.8-119.3-24.3-162.5-67.6
+                                    S78,372.6,76.2,307.4c1.8-65.1,24.3-119.4,67.6-163s97.4-66.2,162.5-68c65.1,1.8,119.4,24.5,163,68s66.2,97.8,68,163
+                                    c-1.8,65.1-24.5,119.3-68,162.5S371.4,535.7,306.3,537.5z"></path>
+                    </svg>
+                    <form class="search">
+                        <input type="search" class="serach-input" placeholder="Search Pluralsight">
+                    </form>
+                <button class="cancel">x</button>
+                </div>
+            </div>
+        <!-- end of Search dropdown -->
+
+        <!-- sign-in dropdown -->
+            <div id="d5" class="drop-nav-item signin hide-item">
+                <div class="signin-container">
+                    <div class="sign-in-with skill">
+                        <p class="title">SIGN IN WITH</p>
+                        <div class="sign-in-option">
+                            <div class="skills-img">
+                                <img src="./img/logo_ps-skills.png" alt="">
+                            </div>
+                            <div class="arrow-next">
+                                <img src="./img/icon-next.svg" alt="" >
+                            </div>
+                        </div>
+                    </div><hr class="signin-rule">
+                    <div class="sign-in-with flow">
+                        <p class="title">SIGN IN WITH</p>
+                        <div class="sign-in-option">
+                            <div class="skills-img">
+                                <img src="./img/Flow_Logo_white.png" alt="">
+                            </div>
+                            <div class="arrow-next">
+                                <img src="./img/icon-next.svg" alt="" >
+                            </div>
+                        </div>
+                    </div>
+                    <button class="cancel">x</button>
+                </div>
+        <!-- End of sign-in dropdown -->
         </div>
-       
-    </header>
+             
+    </nav>
+
+    <!-- showcase area -->
+    <div class="dim-effect">
+        <section class="showcase">
+            <div class="header-container">
+                <section class="header-acticle-container">
+                    <h1 class="header-title">UPSKILL YOUR TECH <br>TEAMS FROM ANYWHERE</h1>
+                    <p class="header-article">Technologists need the latest skills to do their jobs effectively. And technology leaders need visibility into how their teams work to put the right people on the right  projects. Pluralsight gives you both—the skills and data you need to succeed.</p>
+                    <div class="header-buttons">
+                        <button id="view">VIEW PLANS</button>
+                        <button id="try-free">TRY FOR FREE</button>
+                    </div>
+                </section>
+                <!-- <section class="header-image">
+                    <img src="./img/boy and dog.png" alt="header-image" >
+                </section> -->
+            </div>
+        </section>
+    </div>
+    <!-- script -->
+    <script src="./js/index.js"></script>
 </body>
 </html>

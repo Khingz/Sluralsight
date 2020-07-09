@@ -2,12 +2,16 @@
 @import 'config';
 @import 'utilities';
 @import 'nav';
+@import 'dropdown';
+@import 'mediaquery-mobile';
+@import 'media-1024';
 
 
-header {
-    background-color: $light-black;
-    background-size: cover;
+.showcase {
+    background-color: red;
+    background-size: contain;
     height: 100vh;
+    width: 100%;
     margin: 0;
 
     .header-container {
@@ -25,6 +29,7 @@ header {
         font-family: 'Black Han Sans', sans-serif;
         margin-left: 1.3rem;
     }
+
 
     .header-article {
         font-weight: 500;
@@ -71,5 +76,7 @@ header {
     img {
        margin-right: 1.3rem;
        margin-top: 20vh;
+       width: 30rem;
+       height: 23rem;
     }
 }
