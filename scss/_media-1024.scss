@@ -57,5 +57,92 @@
     .signin-container {
         width: 40%;
     }
+
+
+    // shocase
+    .dim-effect {
+        .showcase .header-container {
+            flex-direction: column;
+            padding: 3rem 2rem;
+
+        }
+        // .header-buttons {
+        //     flex-direction: column;
+        //     width: 100%;
+        //     margin-top:-1rem;
+        // }
+            
+        .header-buttons button {
+           width: 40% !important;
+        }
+
+        .header-article-container {
+            width: 1% !important;
+            
+        }
+
+        .header-image {
+            width: 60%;
+            margin-left: 15%;
+            margin-top: 10%;
+        }
+
+    }
     
+    // trending-technogies
+    .trending-tech {
+        flex-direction: column-reverse;
+        padding-top: 0 !important;
+
+        .trending-tech-boxes-container {
+            width: 90vw !important;
+            margin-left: 3rem !important;
+            margin-top: 3rem !important;
+        }
+
+        .top {
+            justify-content: space-between;
+        }
+    
+        .bottom {
+            justify-content: space-between;
+        }
+
+        .trending-description-container {
+            width: 80vw !important;
+            padding-right: 1.5rem;
+            // margin-left: auto !important;
+        }
+
+        .trending-description-container h3 {
+            width:  90% !important;
+        }
+    }
+
+//platform 
+    .skill-platform-container {
+        flex-direction: column !important;
+        
+    }
+
+    .skill-platform-container img {
+        width: 100vw !important;
+    }
+    
+    .platform-description {
+        width: 98% !important;
+        padding: 3rem 0 !important;
+        padding-left: 1rem !important;
+        // height: 60vh !important;
+
+    }
+
+    .platform-description img {
+        width: 20% !important;
+    }
+
+    // evolution
+    .evolution-container h3 {
+        // width: 80% !important;
+    }
 }

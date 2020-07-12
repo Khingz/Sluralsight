@@ -29,9 +29,6 @@
             transition: ease-in-out 1s all;
         }
 
-        .ham-nav-links {
-            
-        }
 
         .ham-nav-links ul{
             display: flex;
@@ -40,15 +37,15 @@
             position: absolute;
             width: 100%;
             top: 100%;
-            left: -4%;
+            left: -2%;
             margin-top: 0;
             // right: 5%;
-            height: 50vh;
+            height: 70vh;
             // margin-top: 7rem;
             text-align: left;
             background-color: $black;
-
             padding-top: 2.5rem;
+            padding-bottom: 11rem;
         }
 
         .ham-nav-links ul li {
@@ -56,11 +53,18 @@
             // margin-top: 3rem;
         }
 
-        .ham-nav-links ul li:last-child {
+        .ham-nav-links ul li:nth-child(5), .ham-nav-links ul li:nth-child(6) {
             border: white solid .01rem;
             text-align: center;
-            padding: 2.5rem;
-            
+            padding: 2rem 2.5rem;
+            margin-right: 3.5rem;
+        }
+
+        .ham-nav-links ul li:nth-child(6) {
+            background-image: linear-gradient(to right, $pink, $orange);
+            outline: none;
+            border: none;
+            margin-top: -2rem;
         }
 
        .dropdown-icon {
@@ -74,23 +78,143 @@
     }
 
     // showcase
-    .showcase {
-        .header-container {
+    .dim-effect {
+        .showcase .header-container {
             flex-direction: column;
+            padding: 3rem 2rem;
+
+        }
+
+        .header-article-container {
+            width: 100%;
+            
+        }
+
+        .header-title {
+            font-size: 2rem;
+        }
+
+        .header-buttons {
+            flex-direction: column;
+            width: 100%;
+            margin-top:-1rem;
         }
 
         .header-buttons button {
-            display: block;
-            width: 80%;
+           width: 90% !important;
+           padding: 1.5rem 1rem !important;
+           font-size: .9rem !important;
+           margin-bottom: -.5rem !important;
         }
 
-
-        img {
-            margin: 0;
+        .header-image {
             width: 100%;
-            height: 5rem;
-         }
+        }
+
+        .header-image img {
+            margin-top: 5rem;
+        }
     }
-}   
+
+    // trending-technogies
+    .trending-tech {
+        flex-direction: column-reverse;
+        padding-top: 0 !important;
+        
+
+        .trending-tech-boxes-container {
+            width: 90vw !important;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .trending-tech-box {
+            margin: 2rem 5% 0 !important;
+            
+        }
+
+        .trending {
+            width: 90% !important;
+            margin-bottom: 2rem !important;
+        }
+
+        .top {
+            flex-direction: column;
+            margin-bottom: -2rem !important;
+        }
+
+        .bottom {
+            flex-direction: column;
+        }
+
+        .trending > img {
+            top: -9% !important;
+            right: -4% !important;
+            width: 20% !important;
+
+        }
+
+        .trending-description-container {
+            width: 90vw !important;
+            padding-right: 1.5rem;
+        }
+
+        .trending-description-container h3 {
+            width:  100% !important;
+        }
+    }
+
+        //discover
+        .discover-container {
+        padding: 1rem !important;
+
+            .discover-items-container {
+                flex-direction: column;
+                justify-content: center;
+            }
+    
+            .discover-item {
+                width: 100%;
+            }
+    }  
+
+    //platform 
+    .skill-platform-container {
+        flex-direction: column !important;
+        
+    }
+
+    .skill-platform-container img {
+        width: 100vw !important;
+    }
+    
+    .platform-description {
+        width: 97.3% !important;
+        padding: 3rem 0 !important;
+        padding-left: 1rem !important;
+        height: 80vh !important;
+
+        // padding-right: .5rem !important;
+    
+    }
+
+    .platform-description img {
+        width: 20% !important;
+    }
+
+    //share your skills
+    .slide-container {
+        flex-direction: column;
+        text-align: center !important;
+    }
+
+    .slide {
+        width: 80% !important;
+        margin: 1rem 1rem;
+    }
+ 
+}
+
+
 
    

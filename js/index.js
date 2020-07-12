@@ -3,13 +3,13 @@ const dropDownEffects = (itemId) => {
     const class_Name = 'hide-item';
     if(!itemId.classList.contains(class_Name)) {
         document.querySelector('body').style.overflowY = 'hidden';
-        // document.querySelector('.showcase').style.transform = 'scale(1.01)';
-        // document.querySelector('.dim-effect').style.opacity = '0.2';
+        document.querySelector('.check-light').style.transform = 'scale(1)';
+        document.querySelector('.check-light').style.opacity = '0.05';
         
     } else {
         document.querySelector('body').style.overflowY = 'visible';
-        // document.querySelector('.showcase').style.transform = 'scale(1)';
-        // document.querySelector('.dim-effect').style.opacity = '1';
+        document.querySelector('.check-light').style.transform = 'scale(1.02)';
+        document.querySelector('.check-light').style.opacity = '1';
     }
 }
 
@@ -23,7 +23,7 @@ const toggleNav = id => {
     }
     const itemID = document.getElementById(id);
     itemID.classList.toggle('hide-item');
-    // dropDownEffects(itemID);
+    dropDownEffects(itemID);
 }
 
 
@@ -71,7 +71,7 @@ const toggleNavHam = id => {
     }
     const itemID = document.getElementById(id);
     itemID.classList.toggle('hide-item');
-    // dropDownEffects(itemID);
+    dropDownEffects(itemID);
 }
 
 //cancel click event
@@ -85,6 +85,8 @@ for(let i = 0; i < cancelButton.length; i++) {
                 navIcon[j].classList.remove('rotate-nav');
             }
         }
+    dropDownEffects(cancelButton[i].parentElement.parentElement);
+    
         
     })
 }

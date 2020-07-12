@@ -8,6 +8,7 @@ nav {
     left: 0;
     text-align: center;
     box-shadow: .2rem .2rem 10rem .2rem $black;
+    z-index: 5;
 
     .nav-left {
         display: flex;
