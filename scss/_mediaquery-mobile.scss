@@ -189,7 +189,7 @@
     }
     
     .platform-description {
-        width: 97.3% !important;
+        width: 83.3% !important;
         padding: 1rem 0 !important;
         padding-left: 1rem !important;
         padding-bottom: 3rem !important;
@@ -273,6 +273,8 @@
 @media (min-width: 500px) and (max-width: 1000px) {
     .platform-description {
         padding-bottom: 4rem !important;
+        width: 91.3% !important;
+
         // height: 70vh !important;
     }
 }
