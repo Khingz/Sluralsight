@@ -193,7 +193,7 @@
         padding: 1rem 0 !important;
         padding-left: 1rem !important;
         padding-bottom: 3rem !important;
-        height: 80vh !important;
+        // height: 80vh !important;
 
         // padding-right: .5rem !important;
     
@@ -272,8 +272,8 @@
 //specific for 768px screen
 @media (min-width: 500px) and (max-width: 1000px) {
     .platform-description {
-        padding-bottom: 1rem !important;
-        height: 70vh !important;
+        padding-bottom: 4rem !important;
+        // height: 70vh !important;
     }
 }
 
