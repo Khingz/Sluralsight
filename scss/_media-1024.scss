@@ -122,7 +122,6 @@
 //platform 
     .skill-platform-container {
         flex-direction: column !important;
-        
     }
 
     .skill-platform-container img {
@@ -130,10 +129,11 @@
     }
     
     .platform-description {
-        width: 98% !important;
-        padding: 3rem 0 !important;
+        width: 95% !important;
+        padding: 0 2rem !important;
         padding-left: 1rem !important;
-        // height: 60vh !important;
+        padding-bottom: 4rem !important;
+        // height: 30vh !important;
 
     }
 
@@ -144,5 +144,16 @@
     // evolution
     .evolution-container h3 {
         // width: 80% !important;
+    }
+
+    //footer
+    .footer-top-item-container p {
+        font-size: 0.5rem;
+        font-weight: 550;
+    }
+
+    .footer-top-item-container ul li {
+        margin-left: -2.5rem;
+        font-size: .5rem;
     }
 }
