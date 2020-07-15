@@ -144,11 +144,19 @@
 
 
     //footer
+    // .footer-top {
+    //     margin: .5rem auto !important;
+
+    // }
 
     .footer-top-item-container {
-        width: 90% !important;
-        margin: .5rem !important;
+        width: 100% !important;
+        margin: .5rem auto !important;
+        // text-align: center !important;
+        justify-content: left !important;
+        padding-left: 3rem;
     }
+
     .footer-top-item-container p {
         font-size: 0.5rem;
         font-weight: 550;
