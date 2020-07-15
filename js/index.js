@@ -111,3 +111,55 @@ hamMenu.addEventListener('click', () => {
     }
 })
 
+
+
+//slide for desktop screen
+
+let slides = document.querySelectorAll('.show-hide-slide');
+const nextBtn = document.querySelector('.next');
+const prevBtn = document.querySelector('.prev');
+let slideIndex = 0;
+function hideSlides() {
+    for(let i = 0; i < slides.length; i++) {
+        slides[i].style.display = 'none';   
+    }
+}
+
+//showSlides
+function showSlides() {
+    hideSlides();
+    slides[slideIndex].style.display = 'block';
+}
+
+//next functionality
+function nextSlide() {
+    hideSlides();
+    slides[slideIndex + 1].style.display = 'block';
+    slideIndex++
+}
+
+//click event for nextSlide
+nextBtn.addEventListener('click', function(){
+    hideSlides();
+    if(slideIndex === slides.length -1) {
+        slideIndex = -1;
+    }
+    nextSlide();
+})
+
+//prev functionality
+function prevSlide() {
+    hideSlides();
+    slides[slideIndex - 1].style.display = 'block';
+    slideIndex--;
+}
+
+//add event for prevSlide
+prevBtn.addEventListener('click', function() {
+    if(slideIndex === 0) {
+        slideIndex = slides.length;
+    }
+    prevSlide();
+});
+
+showSlides();
